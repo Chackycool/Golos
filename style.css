@@ -1,0 +1,191 @@
+body {
+margin: 0;
+}
+.container{
+width: 100%;
+
+margin:0 auto;
+}
+.header_inner{
+	display: flex;
+	align-items:center;
+	
+}
+.heder_logo{
+
+}
+.header{
+top: 0;	
+left: 0;
+right: 0;
+z-index: 1000;
+width:100%;
+
+}
+.margin-left{
+	margin-left:44px !important;
+}
+.btn-warning{
+	background: #ff6702 !important;
+}
+.btn-outline-warning{
+	background: #ff6702 !important;
+	border-radius: 100px !important;
+}
+.btn-outline-primary{
+	background:#4e4e4e !important;
+}
+.text-dark{
+	text-decoration: none !important;
+
+}
+a{
+	text-decoration: none !important;
+}
+.heder_logos{
+
+ 	 position:absolute;
+    top:0px;
+    right: 0px;
+}
+.btn{
+	display: inline-block;
+	text-decoration: none;
+	background-color:#ff6702;
+	color: black;
+	padding: 10px 20px;
+	border-radius: 5px;
+	&:before
+	content:**
+	position:absolute
+	top:0
+	left: 0
+	width: 1.5em
+	height: 100%
+	background-color: rgba(#fff,0.6)
+	transform: translateX(0em) skewX(-45deg)
+	transition: 0.5s
+	&:hover
+	&:before
+	transform: translateX(10em) skewX(-45deg)
+}
+/*                 */
+.btn_reg {
+ border-radius: 100px;
+ font-size: 13px;
+ font-weight: bold;
+ letter-spacing: 1px;
+ padding: 17px 39px;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+ text-transform: uppercase;
+ box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+}
+ .btn-warning_reg{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5ae09+0,ffd044+50,ffc107+51,fc9014+71,f1890b+100 */
+ background: #ff6702;
+ /* Old browsers */
+ background: -moz-linear-gradient(-45deg, #ff6702 0%, #ff6702 50%, #ff6702 51%, #fc9014 71%, #ff6702 100%);
+ /* FF3.6-15 */
+ background: -webkit-linear-gradient(-45deg, #e5ae09 0%,#ffd044 50%,#ff6702 51%,#fc9014 71%,#ff6702 100%);
+ /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(135deg, #ff6702 0%,#ffd044 50%,#ff6702 51%,#fc9014 71%,#ff6702 100%);
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5ae09', endColorstr='#ff6702',GradientType=1 );
+ /* IE6-9 fallback on horizontal gradient */
+ background-size: 400% 400%;
+ -webkit-animation: AnimationName 3s ease infinite;
+ -moz-animation: AnimationName 3s ease infinite;
+ animation: AnimationName 3s ease infinite;
+ -webkit-animation: AnimationName 3s ease infinite;
+ -moz-animation: AnimationName 3s ease infinite;
+ animation: AnimationName 3s ease infinite;
+ border: medium none;
+ color: #fff !important;
+}
+ @-webkit-keyframes AnimationName {
+ 0%{
+ background-position:0% 31%
+ }
+ 50%{
+ background-position:100% 70%
+ }
+ 100%{
+ background-position:0% 31%
+ }
+}
+ @-moz-keyframes AnimationName {
+ 0%{
+ background-position:0% 31%
+ }
+ 50%{
+ background-position:100% 70%
+ }
+ 100%{
+ background-position:0% 31%
+ }
+}
+ @keyframes AnimationName {
+ 0%{
+ background-position:0% 31%
+ }
+ 50%{
+ background-position:100% 70%
+ }
+ 100%{
+ background-position:0% 31%
+ }
+}
+ .btn-outline-light_reg:hover{
+ color: #3f345f;
+}
+ .btn-outline-warning_reg:hover{
+ color: #ffffff;
+}
+ .btn-sm_reg {
+ font-size: 12px;
+ padding: 11px 25px;
+}
+ .elements-page-btn_reg .btn_reg {
+ margin: 6px 3px;
+}
+
+/**/
+
+
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.tumblr a:hover {background: #34526f; color: #fff;}
+.windows a:hover {background: #125acd; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+.weibo a:hover {background: #d52b2b; color: #fff;}
+
+@media screen and (max-width: 1100px){
+	.header_inner{
+	flex-direction: column;
+	align-items:center;
+	
+}
+}

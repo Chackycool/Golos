@@ -1,0 +1,35 @@
+
+.big{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.block2{
+
+width: 270px;
+height: 250px;
+background:;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;   
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+margin-right:10px;
+}
+.block2:hover {
+width: 450px;
+height:390px;
+}
+.header{
+    text-align: center;
+    background: #ff6702;
+    border-radius: 10px;
+}
+/**/
+.big2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
